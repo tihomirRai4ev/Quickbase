@@ -14,7 +14,7 @@ public class ConcreteStatService implements IStatService {
 	 */
 	public List<Pair<String, Integer>> GetCountryPopulations() {
 		List<Pair<String, Integer>> output = new ArrayList<Pair<String, Integer>>();
-		
+
 		// Pretend this calls a REST API somewhere
 		output.add(new ImmutablePair<String, Integer>("India",1182105000));
 		output.add(new ImmutablePair<String, Integer>("United Kingdom",62026962));

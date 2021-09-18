@@ -5,3 +5,6 @@
 .classpath
 build/libs/dev-interview-materials.jar
 .gradle/*
+../out/
+../.gradle/
+build/tmp/
